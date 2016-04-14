@@ -105,7 +105,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "Identicon"
 	app.Usage = "Generate identicons from strings"
-	app.Version = "0.0.1"
+	app.Version = "0.0.2"
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:  "message, m",
